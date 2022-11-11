@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fc457fe24db9c40b1d06eb0c41df69, type: 3}
+  m_Name: MapMeshSO
+  m_EditorClassIdentifier: 
+  MeshManagers:
+  - pixelColor: 00FF00FF
+    meshs:
+    - edge: 0
+      instance_Object: {fileID: 9187498771969268938, guid: 88720c4b84e45084796765f4eff94c9f, type: 3}
+    - edge: 1
+      instance_Object: {fileID: 1863058835187179594, guid: 257ee4360d4ba754cb1b8fcae2a85488, type: 3}
+    - edge: 2
+      instance_Object: {fileID: 2803021856372554693, guid: 9a517fbf6d479424e9657a456b8368d0, type: 3}
+    - edge: 3
+      instance_Object: {fileID: 774732339332713076, guid: e47e39de78a39114eb982c7fbb7306c4, type: 3}
+    - edge: 4
+      instance_Object: {fileID: 4167286291725581820, guid: 98729682203da624f990c5506573d914, type: 3}
+  - pixelColor: FF4D00FF
+    meshs:
+    - edge: 0
+      instance_Object: {fileID: 4137570426329778937, guid: f99a893b94a1bde44baa426b1d6c6086, type: 3}
+    - edge: 1
+      instance_Object: {fileID: 7693040238505725399, guid: a552d864f899ee545bedacfe0cf0cd65, type: 3}
+    - edge: 2
+      instance_Object: {fileID: 3872081791241614934, guid: cd01058a01c33cc40b1e8caa4872f4da, type: 3}
+    - edge: 3
+      instance_Object: {fileID: 6769484567669143361, guid: 13ed992396098fb40a91f51f1708e337, type: 3}
+    - edge: 4
+      instance_Object: {fileID: 8635597692131299241, guid: 5fb742cd646f36d4fb2212aef4eeb854, type: 3}
+  - pixelColor: 3
+    meshs:
+    - edge: 0
+      instance_Object: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+    - edge: 0
+      instance_Object: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+    - edge: 0
+      instance_Object: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+    - edge: 0
+      instance_Object: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+    - edge: 0
+      instance_Object: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+  water: {fileID: 1294054216489391163, guid: fed5b848c22707947839aa2e28d35d45, type: 3}
+  HeightList:
+  - 000000FF
+  - FFFFFFFF
+  - D9D9D9FF
+  - 979797FF
+  - 525252FF
+  objectManager:
+    objectsElements:
+    - ObjectName: "\uB3CC"
+      pixelColorHex: 000000FF
+      objects:
+      - {fileID: 4096449574246004291, guid: 1d0d62047c0ad0d469d62127fbd1e23d, type: 3}
+      - {fileID: 6977179289410413689, guid: ad5542dc75b57284f8cf86f19b9ea0a2, type: 3}
+      - {fileID: 6152794974198739282, guid: 1933da8c1d0f15a4ca9a227723a2e1a5, type: 3}
+      - {fileID: 5166930676944978037, guid: cd102b51c0783d64589c2177fcfea46a, type: 3}
+      - {fileID: 3522068559506805592, guid: ba6beab635d60d54abeff43810616e63, type: 3}
+      - {fileID: 8689998506251213869, guid: 5866e83bd853b59439b4555bee7fd699, type: 3}
+    - ObjectName: "\uB098\uBB34"
+      pixelColorHex: 00FF00FF
+      objects:
+      - {fileID: 971598819797646051, guid: 4fe91b70223fc4d4cb3214cdd8a2491f, type: 3}
+      - {fileID: 4026147361975875753, guid: b70e65c0a0ae25a4b979477e733863a5, type: 3}
+      - {fileID: 3664944492142270178, guid: 65395e6db4f0cc0498e44f0efd7db3b1, type: 3}
+      - {fileID: 1221223343915000744, guid: 54c4f10c9f438c248996ebbefdeec087, type: 3}
+      - {fileID: 4993118403356582301, guid: 73b5d765951dd7c49a59e29e4bda8f80, type: 3}
+      - {fileID: 5352347528250386450, guid: fc4bfe88c7adf4642862ed31bcc5ae0e, type: 3}
+      - {fileID: 4792004811858902722, guid: bdedc9c7c979d174faa2310db28f7a5b, type: 3}
+      - {fileID: 5287282086314104323, guid: 5aec3f88307e29047ac3602537779a83, type: 3}
+      - {fileID: 6150265035620361378, guid: e9b551c76184320419f587ff8c3e25be, type: 3}
+    - ObjectName: "\uBD80\uAC00\uC624\uBE0C\uC81D\uD2B8"
+      pixelColorHex: A5A6A5FF
+      objects:
+      - {fileID: 8871398918901402131, guid: 97032db00b32bea43ae58bcf2f43879e, type: 3}
+      - {fileID: 3836288402478158175, guid: 4f106067e69e37b4bbc1ece430c67a71, type: 3}
+      - {fileID: 1529764958922325314, guid: bacc6766caf81cb42acb7f49711645d1, type: 3}
+      - {fileID: 3233172059884387811, guid: e06b6bfb38a69414a8edcac7888e44f9, type: 3}
+      - {fileID: 580115554, guid: a8f45953969b6cc4eb86c25b5671b7ed, type: 3}
+      - {fileID: 244250850889543267, guid: a0a3d23993fa0d341bf818fabf9000e6, type: 3}
+      - {fileID: 6244284807888854470, guid: 5c01dc93a04f3d240b6de1848b332f15, type: 3}
